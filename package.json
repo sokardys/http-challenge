@@ -1,0 +1,24 @@
+{
+  "name": "http-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "standard": {
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
